@@ -16,7 +16,9 @@ Suite de herramientas de escritorio para creadores, con una interfaz minimalista
 
 El Hub de herramientas ya tiene espacio reservado (tarjetas deshabilitadas) para futuras herramientas, todavía sin definir.
 
-## Requisitos (macOS)
+## Requisitos
+
+**macOS**
 
 - **Python 3.11+ con Tk moderno.** El Python que trae macOS por defecto usa una versión de Tk que se ve mal (bordes y tipografía deformados) con la interfaz de la app:
 
@@ -30,7 +32,14 @@ El Hub de herramientas ya tiene espacio reservado (tarjetas deshabilitadas) para
   brew install ffmpeg
   ```
 
+**Windows**
+
+- **Python 3.11+** — el instalador oficial de [python.org](https://www.python.org/downloads/) ya incluye Tk, no hace falta nada extra.
+- **ffmpeg** — descargalo desde [ffmpeg.org](https://ffmpeg.org/download.html) y agregá la carpeta `bin` al `PATH` del sistema.
+
 ## Instalación
+
+**macOS**
 
 ```
 cd YouTools
@@ -38,10 +47,26 @@ cd YouTools
 ./venv/bin/pip install -r requirements.txt
 ```
 
+**Windows**
+
+```
+cd YouTools
+python -m venv venv
+venv\Scripts\pip install -r requirements.txt
+```
+
 ## Uso
+
+**macOS**
 
 ```
 ./venv/bin/python main.py
+```
+
+**Windows**
+
+```
+venv\Scripts\python main.py
 ```
 
 La primera vez se te pedirá elegir idioma y carpeta de descargas. Luego, desde el Hub de Herramientas, entra a **YouTube Converter**, pega el enlace, elige MP3 o MP4 y descarga.
@@ -53,3 +78,8 @@ Python · [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) · [yt
 ## Autor
 
 Fernando Contreras — [GitHub](https://github.com/Fer-Nixx) · [LinkedIn](https://www.linkedin.com/in/fernandocontrerasrojas) · [Buy Me a Coffee](https://buymeacoffee.com/fernixx)
+
+## Licencia
+
+[CC BY-NC 4.0](LICENSE)
+
