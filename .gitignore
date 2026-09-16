@@ -1,0 +1,47 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Variables de entorno / secretos
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+tokens.json
+
+# Cachés y bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Empaquetado (Fase 5 - PyInstaller e instaladores)
+build/
+dist/
+*.spec
+*.dmg
+*.app/
+*.exe
+*.msi
+
+# Sistema (macOS / Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración de usuario persistida en runtime (no es parte del código fuente)
+.youtools/
+
+# Editores / herramientas de IA
+.vscode/
+.idea/
+.claude/
+.cursor/
+.windsurf/
+*.swp
+*.swo
+*~
